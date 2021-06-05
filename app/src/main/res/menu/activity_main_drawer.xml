@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_posts"
+            android:icon="@drawable/post"
+            android:title="@string/title_posts" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/newspaper"
+            android:title="@string/menu_news" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/clock_outline"
+            android:title="@string/menu_schedule" />
+
+    </group>
+    <group android:id="@+id/menu_management" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_management_groups"
+            android:icon="@drawable/account_group"
+            android:title="@string/menu_management_groups" />
+        <item
+            android:id="@+id/nav_management_specializations"
+            android:icon="@drawable/toolbox"
+            android:title="@string/menu_management_specializations" />
+        <item
+            android:id="@+id/nav_management_subjects"
+            android:icon="@drawable/book_open_variant"
+            android:title="@string/menu_management_subjects" />
+        <item
+            android:id="@+id/nav_management_auditories"
+            android:icon="@drawable/google_classroom"
+            android:title="@string/menu_management_auditories" />
+        <item
+            android:id="@+id/nav_management_users"
+            android:icon="@drawable/account_multiple"
+            android:title="@string/menu_management_users" />
+        <item
+            android:id="@+id/nav_management_current_schedule"
+            android:title="@string/menu_management_current_schedule" />
+        <item
+            android:id="@+id/nav_management_primary_schedule"
+            android:title="@string/menu_management_primary_schedule" />
+        <item
+            android:id="@+id/nav_management_rings_schedule"
+            android:title="@string/menu_rings_schedule" />
+    </group>
+</menu>

@@ -1,0 +1,12 @@
+package ru.nukdotcom.mynmc.models.schedule_model
+
+import com.google.gson.annotations.SerializedName
+
+data class Model(
+
+	@field:SerializedName("name")
+	val name: String? = null,
+
+	@field:SerializedName("id")
+	val id: Long? = null
+)

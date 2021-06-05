@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Мой НМК</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навишации</string>
+    <string name="nav_header_desc">Шапка навигации</string>
+
+    <string name="action_login">Войти</string>
+    <string name="action_refresh">Обновить</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_management">Управление</string>
+    <string name="menu_management_auditories">Аудитории</string>
+    <string name="menu_management_groups">Группы</string>
+    <string name="menu_management_schedule">Расписание</string>
+    <string name="menu_management_current_schedule">Текущее расписание</string>
+    <string name="menu_management_primary_schedule">Основное расписание</string>
+    <string name="menu_rings_schedule">Расписание звонков</string>
+    <string name="menu_management_specializations">Специальности</string>
+    <string name="menu_management_subjects">Предметы</string>
+    <string name="menu_management_users">Пользователи</string>
+    <string name="menu_news">Новости колледжа</string>
+    <string name="menu_posts">Новости</string>
+    <string name="menu_schedule">Расписание</string>
+
+    <string name="title_home">Главная</string>
+    <string name="title_management">Управление</string>
+    <string name="title_management_auditories">Аудитории</string>
+    <string name="title_management_groups">Группы</string>
+    <string name="title_management_schedule">Расписание</string>
+    <string name="title_management_current_schedule">Текущее расписание</string>
+    <string name="title_management_primary_schedule">Основное расписание</string>
+    <string name="title_rings_schedule">Расписание звонков</string>
+    <string name="title_management_specializations">Специальности</string>
+    <string name="title_management_subjects">Предметы</string>
+    <string name="title_management_users">Пользователи</string>
+    <string name="title_news">Новости колледжа</string>
+    <string name="title_posts">Новости</string>
+    <string name="title_schedule">Расписание</string>
+
+    <string name="app_domain">mynmc.nukdotcom.ru</string>
+    <string name="app_url_schema">https://</string>
+    <string name="app_dir">/</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Авторизация</string>
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_password">Пароль</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="prompt_show_password">Показать пароль</string>
+
+    <string name="error_unexpected_response">Мы получили положительный ответ от сервера, но мы не можем его обработать.</string>
+    <string name="error_request_failed">При выполнении запроса к серверу произошла неизвестная ощибка. Проверьте соединение с Интернетом.</string>
+    <string name="error_login_failed">Мы не смогли авторизорвать Вас в системе. Проверьте ваши данные для входа. Код ошибки: %1$d. Сообщение: %2$s</string>
+    <string name="error_response_error">Сервер вернул ответ с ошибкой. Код ошибки: %1$d. Сообщение: %2$s</string>
+
+    <string name="default_avatar">https://secure.gravatar.com/avatar/?d=mp</string>
+    <string name="action_view_news">Подробнее</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.nukdotcom.mynmc.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="ru.nukdotcom.mynmc.ui.news.NewsFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/nav_posts"
+        android:name="ru.nukdotcom.mynmc.ui.posts.PostsFragment"
+        android:label="@string/menu_posts"
+        tools:layout="@layout/fragment_posts" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="ru.nukdotcom.mynmc.ui.schedule.ScheduleFragment"
+        android:label="@string/menu_schedule"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/nav_management_groups"
+        android:name="ru.nukdotcom.mynmc.ui.management.groups.GroupsFragment"
+        android:label="@string/menu_management_groups"
+        tools:layout="@layout/fragment_groups" />
+
+    <fragment
+        android:id="@+id/nav_management_specializations"
+        android:name="ru.nukdotcom.mynmc.ui.management.specializations.SpecializationsFragment"
+        android:label="@string/menu_management_specializations"
+        tools:layout="@layout/fragment_specializations" />
+
+    <fragment
+        android:id="@+id/nav_management_subjects"
+        android:name="ru.nukdotcom.mynmc.ui.management.subjects.SubjectsFragment"
+        android:label="@string/menu_management_subjects"
+        tools:layout="@layout/fragment_subjects" />
+
+    <fragment
+        android:id="@+id/nav_management_auditories"
+        android:name="ru.nukdotcom.mynmc.ui.management.auditories.AuditoriesFragment"
+        android:label="@string/menu_management_auditories"
+        tools:layout="@layout/fragment_auditories" />
+
+    <fragment
+        android:id="@+id/nav_management_users"
+        android:name="ru.nukdotcom.mynmc.ui.management.users.UsersFragment"
+        android:label="@string/menu_management_users"
+        tools:layout="@layout/fragment_users" />
+
+    <fragment
+        android:id="@+id/nav_management_current_schedule"
+        android:name="ru.nukdotcom.mynmc.ui.management.schedule.current_schedule.CurrentScheduleFragment"
+        android:label="@string/menu_management_current_schedule"
+        tools:layout="@layout/fragment_current_schedule" />
+
+    <fragment
+        android:id="@+id/nav_management_primary_schedule"
+        android:name="ru.nukdotcom.mynmc.ui.management.schedule.primary_schedule.PrimaryScheduleFragment"
+        android:label="@string/menu_management_primary_schedule"
+        tools:layout="@layout/fragment_primary_schedule" />
+
+    <fragment
+        android:id="@+id/nav_management_rings_schedule"
+        android:name="ru.nukdotcom.mynmc.ui.management.schedule.rings_schedule.RingsScheduleFragment"
+        android:label="@string/menu_rings_schedule"
+        tools:layout="@layout/fragment_rings_schedule" />
+</navigation>
